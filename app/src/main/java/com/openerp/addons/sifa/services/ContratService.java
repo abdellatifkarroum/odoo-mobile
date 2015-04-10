@@ -4,11 +4,13 @@ import android.accounts.Account;
 import android.app.Service;
 import android.content.ContentProviderClient;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SyncResult;
 import android.os.Bundle;
 
 import com.openerp.addons.sifa.ContratDB;
 import com.openerp.orm.OEHelper;
+import com.openerp.receivers.SyncFinishReceiver;
 import com.openerp.support.service.OEService;
 
 /**
@@ -26,7 +28,8 @@ public class ContratService extends OEService{
         OEHelper oe = contrat.getOEInstance();
         if(oe!=null){
             if(oe.syncWithServer()){
-                System.out.println("goooooooooooooooooood");
+                Intent intent = new Intent(SyncFinishReceiver.SYNC_FINISH);
+                                         sendBroadcast(intent);
             }
         }
     }
