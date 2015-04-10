@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/abenbouchta/Bureau/openerp-mobile-crm_lead/app/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bd6479f5dd592790607e0504e66e0f31c2b4d308">
+        <dex dex="/home/abenbouchta/Bureau/openerp-mobile-crm_lead/app/build/intermediates/pre-dexed/debug/android-support-v4-d11a5824e8269bbb4441e5471a67d2275665b7f9.jar" />
+    </item>
+    <item
+        jar="/home/abenbouchta/Bureau/openerp-mobile-crm_lead/app/libs/pull_swipe_library.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="251891e3cfaf0fc58ac7a7150db797cb7a5200b4">
+        <dex dex="/home/abenbouchta/Bureau/openerp-mobile-crm_lead/app/build/intermediates/pre-dexed/debug/pull_swipe_library-86432ccbf138f9683b9e4204f5178a6c2332c586.jar" />
+    </item>
+    <item
+        jar="/home/abenbouchta/Bureau/openerp-mobile-crm_lead/app/libs/openerp-library.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f02a0ac59b0b29c127e2165f2df81f4a5f321bd8">
+        <dex dex="/home/abenbouchta/Bureau/openerp-mobile-crm_lead/app/build/intermediates/pre-dexed/debug/openerp-library-adcd1f84e26b6dbfc14d15021e2b981e1e46d4ae.jar" />
+    </item>
+
+</items>
